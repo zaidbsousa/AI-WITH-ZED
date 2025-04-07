@@ -269,7 +269,7 @@ header {
 
 .service-card {
   background-color: white;
-  border-radius: 0;
+  border-radius: var(--border-radius);
   overflow: hidden;
   box-shadow: var(--box-shadow);
   transition: var(--transition);
@@ -397,7 +397,7 @@ header {
   width: 100%;
   padding: 12px 15px;
   border: 1px solid #ddd;
-  border-radius: 0;
+  border-radius: var(--border-radius);
   font-family: var(--font-primary);
   font-size: 1rem;
   transition: var(--transition);
